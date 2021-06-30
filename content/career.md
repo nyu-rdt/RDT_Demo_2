@@ -50,7 +50,7 @@ career:
   job_item:
   - name : "Android Developer"
     location : "Hamburg, Germany"
-    form_action : "#"
+    form_action : "https://simple-form.com/vominhtriet02@gmail.com"
     about : "With experience in creating visual directions for tech products, you are able to set the standard and lead designers along the way. You are not only able to execute beautiful user experiences yourself but communicate those concepts to the team and clients."
     experiences:
     - "3+ years Development	experience in a startup environment"
@@ -60,7 +60,7 @@ career:
     
   - name : "DevOps Engineer"
     location : "Hamburg, Germany"
-    form_action : "#"
+    form_action : "https://simple-form.com/vominhtriet02@gmail.com"
     about : "With experience in creating visual directions for tech products, you are able to set the standard and lead designers along the way. You are not only able to execute beautiful user experiences yourself but communicate those concepts to the team and clients."
     experiences:
     - "3+ years Development	experience in a startup environment"
@@ -71,7 +71,7 @@ career:
 
   - name : "Operations Manager"
     location : "Hamburg, Germany"
-    form_action : "#"
+    form_action : "https://simple-form.com/vominhtriet02@gmail.com"
     about : "With experience in creating visual directions for tech products, you are able to set the standard and lead designers along the way. You are not only able to execute beautiful user experiences yourself but communicate those concepts to the team and clients."
     experiences:
     - "3+ years Development	experience in a startup environment"
@@ -82,7 +82,7 @@ career:
 
   - name : "International Compliance Officer"
     location : "Hamburg, Germany"
-    form_action : "#"
+    form_action : "https://simple-form.com/vominhtriet02@gmail.com"
     about : "With experience in creating visual directions for tech products, you are able to set the standard and lead designers along the way. You are not only able to execute beautiful user experiences yourself but communicate those concepts to the team and clients."
     experiences:
     - "3+ years Development	experience in a startup environment"
