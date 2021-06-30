@@ -1,5 +1,7 @@
 # RDT_Demo
- 
+
+Demo website. Scrapping the old nyu.rdt.engineering.edu thing.
+
 # Running Hugo <br/>
 To run (assume you noobs run Window), install Chocolatey and then Hugo. <br/>
 On Powershell or Command Line, cd to the directory and run >> hugo server <br/>
