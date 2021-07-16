@@ -18,7 +18,6 @@ mission:
   video_thumb: "images/video-thumb.jpg"
   video_id: "ResipmZmpDU"
 
-
 #################### Vision #####################
 vision:
   enable : true
@@ -27,11 +26,11 @@ vision:
   - title : "People First"
     image : "images/vision/vision-01.jpg"
     content : "We keep everything open and transparency to all of our members <br>"
-    
+
   - title : "Cutting Edge"
     image : "images/vision/vision-02.jpg"
     content : "We pursue the latest model and algorithms from Machine Learning and Robotics. <br>"
-    
+
   - title : "Chill Atmosphere"
     image : "images/vision/vision-03.jpg"
     content : "We keep everything fun and politics-free. <br>Paul Sanar Founder"
@@ -48,12 +47,12 @@ product:
     image : "images/product/product-03.jpg"
     content : "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
     project_url : "#"
-    
+
   - title : "Objects"
     image : "images/product/product-02.jpg"
     content : "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
     project_url : "#"
-    
+
   - title : "Publisher"
     image : "images/product/product-03.jpg"
     content : "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
@@ -68,7 +67,7 @@ contact:
   image : "images/map-bg.jpg"
   content : "The dawn of the digital age and the need for a significant leap forward is here. We believe that every business has the opportunity to move into this new age with the right mindset. Contact us today to begin understanding how Omega can propel your business."
 
-  
+
 ################### call to action #################
 call_to_action:
   enable : true
