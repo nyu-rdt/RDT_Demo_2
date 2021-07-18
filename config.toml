@@ -28,9 +28,9 @@ url = "products"
 weight = 3
 
 [[menu.main]]
-name = "Apply"
+name = "Meet the Team"
 pre = ""
-url = "career"
+url = "members"
 weight = 4
 
 [[menu.main]]
