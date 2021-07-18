@@ -14,5 +14,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Our member</title>
+      <link>https://examplesite.com/members/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/members/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

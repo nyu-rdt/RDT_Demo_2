@@ -46,7 +46,7 @@ product:
   - title : "Ecosystem"
     image : "images/product/product-03.jpg"
     content : "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
-    project_url : "#"
+    project_url : "/members"
 
   - title : "Objects"
     image : "images/product/product-02.jpg"

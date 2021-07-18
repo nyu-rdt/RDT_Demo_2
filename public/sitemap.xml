@@ -8,6 +8,8 @@
   </url><url>
     <loc>https://examplesite.com/</loc>
   </url><url>
+    <loc>https://examplesite.com/members/</loc>
+  </url><url>
     <loc>https://examplesite.com/tags/</loc>
   </url>
 </urlset>
