@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+{{ if site.Data.homepage.product.enable }}
+{{ with site.Data.homepage.product }}
+<section class="products" id="products">
+  <div class="bg">
+    <img src="{{`images/section-bg-2.jpg` | absURL}}" class="img-fluid" alt="section-bg">
+  </div>
+  <div class="left-shape">
+    <img src="{{`images/left-shape.png` | absURL}}" class="img-fluid" alt="left-shape">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <span>{{.section | markdownify }}</span>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="text-block">
+          <h2><span class="rev">{{ .title | markdownify }}</span>
+          </h2>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid p-0">
+    <div class="row m-0">
+      <div class="col-lg-10 ml-auto p-0">
+        <div class="product-slider-wrapper">
+          {{ range .product_item }}
+          <div class="product-item">
+            <img src="{{ .image | absURL }}" alt="product-image">
+            <div class="overlay">
+              <div class="content">
+                <h5>{{ .title | markdownify }}</h5>
+                <p>{{ .content | markdownify }}</p>
+                <a href="{{ .project_url | absURL }}">Learn More</a>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ end }}
