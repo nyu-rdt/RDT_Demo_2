@@ -1,26 +1,28 @@
 #################### Banner #####################
 banner:
   enable : true
-  title : "To Infinity And Beyond"
-  content : "Creating the first rover to reach the sun"
-  image : "images/opportunity.jpg"
+  title : "NYU Robotic Design Team"
+  content : "Creating the mining robot from Moon to Mars"
+  image : "images/welcome.jpg"
   button:
     enable : true
-    label : "WHAT WE DO"
-    link : "#products"
+    label : "Apply Now"
+    link : "https://www.google.com/"
 
 #################### Mission #####################
 mission:
   enable : true
-  title : "Shoot For The Stars"
-  section : "MISSION"
-  content : "NASA was started in 1960 to take humanity beyond Earth and expand our scientific knowledge. Now, we're here to revive their grand vision."
-  video_thumb: "images/video-thumb.jpg"
-  video_id: "ResipmZmpDU"
+  title : "Who We Are"
+  section : "ABOUT"
+  content : "The New York University Robotic Design Team is a team of undergraduate and graduate students from NYU's Tandon School of Engineering. Our diverse student members are from all over the United States and the world. <br>We are not only a team of researchers, but a group of activists and educators whose goal is to help promote STEM education amongst our community.
+<br>Currently, we are a competing team in NASA's Robotic Mining Competition, hosted annually at the Kennedy Space Center in Cape Canaveral, FL."
+  video_thumb: "images/nyurdt_brooklynshowcase.jpg"
+  video_id: "https://www.youtube.com/watch?v=ciUmj8fZggA"
+  
 
 #################### Vision #####################
 vision:
-  enable : true
+  enable : false
   section : "VISION"
   vision_item:
   - title : "People First"
@@ -39,22 +41,22 @@ vision:
 #################### product ####################
 product:
   enable : true
-  section : "Products"
-  title : "Some Of Our Best Products"
-  content : "See the innovation that has come through the Rio way. As an advancement company, the goal is to continuously find areas to help business push forward. Below you can find the first product available to help you do so."
+  section : "MISSION"
+  title : "What we do"
+  content : "The mission of the NYU Robotic Design Team is to create innovative robots for the advancement of the field, while having a positive impact on our school and community."
   product_item:
-  - title : "Create"
-    image : "images/product/product-03.jpg"
+  - title : "Creation"
+    image : "images/product/Creation1.jpg"
     content : "Our members apply their knowledge to design and build advanced robots, getting hands on experience outside the lecture hall."
     project_url : "create"
 
   - title : "Community"
-    image : "images/product/product-02.jpg"
+    image : "images/product/Community1.jpg"
     content : "We inspire students of all ages to pursue a STEM career through community mentorship. In 2018 - 2019, our team contributed a total of 1,500 hours of community service."
     project_url : "community"
 
   - title : "Competition"
-    image : "images/product/product-03.jpg"
+    image : "images/product/Competition1.png"
     content : "We participate in intercollegiate robotics competitions, competing against like minded engineering students from all over the country. Currently, we are competitors in the NASA Robotic Mining Competition"
     project_url : "https://www.nasa.gov/offices/education/centers/kennedy/technology/nasarmc.html"
 
@@ -62,15 +64,15 @@ product:
 ###################### Contact ####################
 contact:
   enable : true
-  section : "CONTACT US"
-  title : "reach us"
-  image : "images/map-bg.jpg"
-  content : "The dawn of the digital age and the need for a significant leap forward is here. We believe that every business has the opportunity to move into this new age with the right mindset. Contact us today to begin understanding how Omega can propel your business."
+  section : "CONTACT"
+  title : "Contact Us"
+  image : "images/NYU_Tandon1.jfif"
+  content : "The dawn of space exploration and the need for robotic assistance is here. We welcome anyone who shares the common passion in robotics and strives for greatness. Contact us today if you are interested!"
 
 
 ################### call to action #################
 call_to_action:
   enable : true
-  title : "Join the Omega family. <br>Click below to view the career opportunities we have for you."
+  title : "Join the RDT family. <br>Click below to view the opportunities we have for you."
   button_label : "Apply Now"
-  button_link : "career"
+  button_link : "https://www.google.com/"

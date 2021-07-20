@@ -16,13 +16,13 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "About"
+name = "About Us"
 pre = "#"
 url = "mission"
 weight = 2
 
 [[menu.main]]
-name = "Competition"
+name = "What We Do"
 pre = "#"
 url = "products"
 weight = 3
@@ -42,13 +42,13 @@ weight = 5
 
 #################### default parameters ################################
 [params]
-logo = "images/index.jpg"
-logo_width = "120px"
+logo = "images/tandon_long_white.png"
+logo_width = "300px"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
 # contact info
-contact_info = "101 Johnson St"
+contact_info = "6 MetroTech Center <br>Brooklyn, NY"
 # Preloader
 preloader = true
 # google map
@@ -68,26 +68,27 @@ expire_days = 2
 
 ############################# social site ########################
 [[params.social]]
+title = "emal"
+icon = "fa-envelope" # fontawesome icon pack v4.7 https://fontawesome.com/v4.7.0/icons/
+link = "mailto:eng-rdt@nyu.edu"
+
+[[params.social]]
 title = "facebook"
 icon = "fa-facebook" # fontawesome icon pack v4.7 https://fontawesome.com/v4.7.0/icons/
-link = "#"
+link = "https://www.facebook.com/nyurdt"
 
 [[params.social]]
 title = "twitter"
 icon = "fa-twitter" # fontawesome icon pack v4.7 https://fontawesome.com/v4.7.0/icons/
-link = "#"
+link = "https://twitter.com/nyurdt"
 
 [[params.social]]
 title = "instagram"
 icon = "fa-instagram" # fontawesome icon pack v4.7 https://fontawesome.com/v4.7.0/icons/
-link = "#"
+link = "http://instagram.com/nyurdt"
 
 [[params.social]]
 title = "github"
 icon = "fa-github" # fontawesome icon pack v4.7 https://fontawesome.com/v4.7.0/icons/
-link = "#"
+link = "https://github.com/nyu-rdt"
 
-[[params.social]]
-title = "linkedin"
-icon = "fa-linkedin" # fontawesome icon pack v4.7 https://fontawesome.com/v4.7.0/icons/
-link = "#"

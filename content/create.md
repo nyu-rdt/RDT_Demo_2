@@ -9,7 +9,7 @@ product:
   title : "Some Of Our Best Products"
   content : "See the innovation that has come through the Rio way. As an advancement company, the goal is to continuously find areas to help business push forward. Below you can find the first product available to help you do so."
   product_item:
-  - title : "Create"
+  - title : "Comeon"
     image : "images/product/product-03.jpg"
     content : "Our members apply their knowledge to design and build advanced robots, getting hands on experience outside the lecture hall."
     project_url : "create"
