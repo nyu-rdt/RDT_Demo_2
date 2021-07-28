@@ -1,8 +1,8 @@
 product:
   enable : true
   section : "Products"
-  title : "Some Of Our Best Products"
-  content : "See the innovation that has come through the Rio way. As an advancement company, the goal is to continuously find areas to help business push forward. Below you can find the first product available to help you do so."
+  title : "We help our community"
+  content : "We nice ppl. Real nice ppl"
   product_item:
   - title : "Comeon"
     image : "images/product/product-03.jpg"
