@@ -86,8 +86,8 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 		// 	$(this).find('.slick-slide:not(.slick-cloned):eq(' + currentslide + ')').find('.item-image').removeClass('trigger');
 		// 	$(this).find('.slick-slide:not(.slick-cloned):eq(' + currentslide + ')').find('span').removeClass('reveal-text');
 		// });
-		
-		
+
+
 		$('.product-slider-wrapper').slick({
 			slidesToShow: 3,
 			infinite: true,
@@ -109,6 +109,31 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 				}
 			]
 		});
+
+
+		$('.product-noslider-wrapper').slick({
+			slidesToShow: 3,
+			infinite: true,
+			prevArrow: "<button type='button' class='slick-prev'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+			nextArrow: "<button type='button' class='slick-next'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+			responsive: [
+				{
+					breakpoint: 991,
+					settings: {
+						slidesToShow: 2,
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 1,
+						centerMode: true,
+					}
+				}
+			]
+		});
+
+
 		// Text Reveal
 		$(".rev").waypoint(function () {
 			$(this[0, 'element']).addClass("reveal-text");
@@ -134,6 +159,8 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 		}, {
 			offset: 'bottom-in-view'
 		});
+
+
 		// -----------------------------
 		// Smmoth Scroll
 		// -----------------------------
@@ -158,7 +185,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 			var dataPositionLng = $('#map').attr('data-position-lng');
 			var center = new google.maps.LatLng(dataCenterLat, dataCenterLng);
 			var pinPosition = new google.maps.LatLng(dataPositionLat, dataPositionLng);
-			
+
 			var style = [
 				{
 					"featureType": "all",
