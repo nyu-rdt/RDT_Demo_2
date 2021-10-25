@@ -42,7 +42,7 @@ weight = 5
 
 #################### default parameters ################################
 [params]
-logo = "images/tandon_long_white.png"
+logo = "images/combined.png"
 logo_width = "300px"
 # Meta data
 description = "This is meta description"
